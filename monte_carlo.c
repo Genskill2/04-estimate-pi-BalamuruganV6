@@ -38,6 +38,16 @@ int main(void) {
     }
   }
 }
+float mc_pi(int x)
+{
+    float a;
+    for( int i=1;i<=x;i++ )
+    {
+        a = frandom();
+    }
+    return 4*a;
+}
+
 
 
 
